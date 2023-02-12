@@ -1,12 +1,18 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/root/_padding-size/root_padding-size_b.css);
+@import url(../blocks/root/_padding-size/root_padding-size_s.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link_active/header__lang-link_active.css);
-.page {
-  background-color: #2A2C2F;
-}
 
-
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
