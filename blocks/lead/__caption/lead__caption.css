@@ -7,21 +7,41 @@
   line-height: 1.4;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  align-self: flex-start;
-
+  display: inline-block;
+  box-sizing: border-box;
+  width: 984px;
 }
 
 
-
-
-@media (max-width: 991.98px) {
+@media (max-width: 576px) {
   .lead__caption {
-    margin-left: 16px;
+    width: 100%;
+    padding-left: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  .lead__caption{
+    width: 100%;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .lead__caption {
+    width: calc(100% - 96px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .lead__caption{
+    max-width: 984px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .lead__caption {
+    width: 100%;
     padding-left: 24px;
   }
 }
+
