@@ -1,14 +1,44 @@
 .lead__title {
   color: #fff;
-  margin: 0 auto;
+  margin: 0;
   max-width: 720px;
   font-size: 96px;
   line-height: 1.04;
   font-weight: 900;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 767px) {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
   .lead__title {
+    line-height: 1.1;
+
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .lead__title {
+    max-width: calc(100% - 32px);
     font-size: 40px;
   }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .lead__title {
+    max-width: calc(100% - 48px);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .lead__title {
+    max-width: calc(100% - 304px);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS Rules */
 }
