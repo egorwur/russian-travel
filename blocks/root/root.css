@@ -2,4 +2,10 @@
   background-color: #2A2C2F;
   font-family: "Inter";
   text-rendering: optimizeLegibility;
+
+}
+
+/* Удалить перед ревью */
+::-webkit-scrollbar {
+  width: 0;
 }
