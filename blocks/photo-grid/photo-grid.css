@@ -20,7 +20,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 991.98px) {
   .photo-grid {
-    padding: 0 24px;
+    margin: 0 24px;
   }
 }
 
