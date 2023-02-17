@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 1184px;
+  max-width: 1184px;
   max-height: 740px;
   aspect-ratio: 592/370;
   margin: 0 auto;
