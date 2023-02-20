@@ -1,0 +1,25 @@
+.page__place {
+  margin: 0 auto 80px;
+}
+
+.page__place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+  .page__place {
+    margin: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .page__place {
+    margin: 0 24px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .page__place {
+    margin: 0 48px;
+  }
+}

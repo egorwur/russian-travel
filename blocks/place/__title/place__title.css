@@ -4,4 +4,12 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 1.06;
+  padding: 0 25px 0 0;
+  box-sizing: content-box;
+}
+
+@media (max-width: 991.98px) {
+  .place__title {
+    font-size: 42px;
+  }
 }

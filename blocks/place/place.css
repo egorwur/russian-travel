@@ -3,23 +3,17 @@
   grid-template-areas:
   "title link"
   "image text";
-  grid-template-columns: repeat(2, minmax(auto, 460px));
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
   grid-template-rows: auto auto;
   gap: 48px 40px;
   max-width: 984px;
   color: #fff;
-  margin: 0 auto 80px;
-}
-
-.place:last-of-type {
-  margin: 0 auto;
 }
 
 @media (max-width: 575.98px) {
   .place {
     grid-template-columns: 1fr;
     min-width: 320px;
-    gap: 32px;
     grid-template-areas:
     "title"
     "link"
@@ -28,14 +22,22 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 991.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   .place {
-    margin: 0 24px;
+      gap: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .place {
+    gap: 48px 28px;
   }
 }
 
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .place {
-    margin: 0 48px;
+    gap: 48px 32px;
   }
 }
+

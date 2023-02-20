@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: baseline;
+}
+
+@media (max-width: 767.98px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
