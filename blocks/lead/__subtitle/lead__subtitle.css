@@ -12,18 +12,21 @@
     font-size: 16px;
     max-width: calc(100% - 32px);
     line-height: 1.25;
+    margin: 16px 0 40px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .lead__subtitle {
     max-width: calc(100% - 128px);
+    margin-bottom: 56px;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .lead__subtitle {
     max-width: calc(100% - 384px);
+    margin-bottom: 56px;
   }
 }
 

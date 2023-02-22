@@ -2,14 +2,14 @@
   margin: 28px 48px 56px;
 }
 
-@media screen and (max-width: 1200px) {
-  .header {
-    margin: 28px 24px 48px;
+@media screen and (max-width: 767.98px) {
+  .page__header {
+    margin: 16px 16px 48px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header {
+  .page__header {
     margin: 16px 16px 48px;
   }
 }
