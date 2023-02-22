@@ -6,13 +6,12 @@
   max-width: 1184px;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .photo-grid {
     grid-gap: 14px;
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1230px) {
   .photo-grid {
     grid-template-columns: repeat(4, minmax(284px, 1fr));

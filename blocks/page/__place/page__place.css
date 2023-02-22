@@ -6,20 +6,25 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 575.98px) {
+@media screen and (max-width: 575.98px) {
   .page__place {
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
   }
 }
 
-@media (min-width: 576px) and (max-width: 991.98px) {
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
   .page__place {
-    margin: 0 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 73px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .page__place {
-    margin: 0 48px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }

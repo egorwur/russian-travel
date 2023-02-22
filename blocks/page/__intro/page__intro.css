@@ -1,21 +1,21 @@
 .page__intro {
-  margin-left: 148px;
+  margin: 92px 0 92px 148px;
 }
 
-@media (max-width: 767.98px){
-  .intro {
-    margin-left: 16px;
+@media screen and (max-width: 767.98px){
+  .page__intro {
+    margin: 64px 16px;
   }
 }
 
-@media (max-width: 991.98px) {
-  .intro {
-    margin-left: 24px;
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .page__intro {
+    margin: 88px 24px 88px 24px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .intro {
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .page__intro {
     margin-left: 48px;
   }
 }
