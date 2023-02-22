@@ -19,6 +19,8 @@
   bottom: 0;
   background-color: #2a2c2f;
   opacity: 0.3;
+  -webkit-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
 }
 
@@ -30,4 +32,4 @@
   .cover {
     width: 100%;
   }
-  }
+}
