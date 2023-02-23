@@ -8,8 +8,8 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
   .page__header {
-    margin: 16px 16px 48px;
+    margin: 28px 24px 48px;
   }
 }
